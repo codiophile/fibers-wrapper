@@ -1,0 +1,33 @@
+{
+  "name": "fibers-wrapper",
+  "version": "0.0.1",
+  "description": "Wraps any promised based library in a fibers aware layer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codiophile/fibers-wrapper.git"
+  },
+  "keywords": [
+    "fiber",
+    "fibers",
+    "coroutine",
+    "sync",
+    "async",
+    "promise"
+  ],
+  "author": "Erik Blomqvist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codiophile/fibers-wrapper/issues"
+  },
+  "homepage": "https://github.com/codiophile/fibers-wrapper#readme",
+  "dependencies": {
+    "fibers": "^3.1.1"
+  }
+}
